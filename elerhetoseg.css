@@ -1,0 +1,87 @@
+
+#navbar-left{
+    margin: -10px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    background-color: lightgray;
+    }
+    
+    .bartext {
+        padding: 5px;
+    }
+
+
+
+    .bartext button {
+        background-color: lightgray;
+        border: 3px black solid;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        font-size: 13px;
+    }
+    
+    .bartext :hover {
+        background-color: rgb(125, 125, 125);
+        transition: 0.9s;
+    }
+
+    img {
+        width: 40px;
+        height: auto;
+
+    }
+
+    #cim {
+    text-align: center;
+}
+
+#logobutton {
+    background-color: lightgray;
+    border: black 5px solid;
+}
+
+#navbutton {
+    text-decoration: none;
+    color: black;
+}
+
+#links {
+   user-select: none;
+   margin: 0px;
+   text-align: center;
+}
+
+#elerhetoseglink {
+    text-transform: uppercase; 
+    color: white;
+    text-decoration: none;
+}
+
+#elerhetosegbutton :hover{
+    background-color: rgb(66, 131, 252);
+    transition: 0.9s;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#elerhetosegbutton {
+    background-color: #2020f4;
+    border: 3px black solid;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#warning {
+    background-color: rgb(191, 191, 191);
+    margin: 30px;
+    border: 3px rgb(209, 0, 0) solid;
+    border-radius: 20px;
+    user-select: none;
+}
